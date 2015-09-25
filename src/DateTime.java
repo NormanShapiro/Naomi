@@ -30,7 +30,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package Norm;
+package Examples;
 
 import org.naomi.regex.*;
 import java.util.*;
@@ -53,8 +53,8 @@ public class DateTime extends ConcatenatePattern
 
   public DateTime(String[] args)
   {
-     Pretty pretty=new Pretty();
-     setPretty(pretty);
+     //@Pretty pretty=new Pretty();
+     //@setPretty(pretty);
      DayOfWeekPattern dayOfWeekPattern=new DayOfWeekPattern();
      DatePattern datePattern=new DatePattern();
      TimeOfDayPattern timeOfDayPattern=new TimeOfDayPattern();
@@ -74,7 +74,7 @@ public class DateTime extends ConcatenatePattern
         new WhitePattern(true)
      );
 
-     A.p(getRegularExpression());
+     //@A.p(getRegularExpression());
      for(String arg: args)
      {
         if(arg==null) continue;

@@ -88,24 +88,24 @@
 <span class="sourceLineNo">080</span>     boolean nullOK,boolean firstOK<a name="line.80"></a>
 <span class="sourceLineNo">081</span>  )<a name="line.81"></a>
 <span class="sourceLineNo">082</span>  {<a name="line.82"></a>
-<span class="sourceLineNo">083</span>     //@Norm.A.p((" "+("pattern.getClass()") +" = " + (pattern.getClass()))/*~*/+(" " + "Utilities.pj" + ":" + 51 + " "));<a name="line.83"></a>
-<span class="sourceLineNo">084</span>     //@Norm.A.p((" "+("pattern.getRegularExpression()") +" = " + (pattern.getRegularExpression()))/*~*/+(" " + "Utilities.pj" + ":" + 52 + " "));<a name="line.84"></a>
-<span class="sourceLineNo">085</span>     //@Norm.A.p((" "+("objects") +" = " + (objects))/*~*/+(" " + "Utilities.pj" + ":" + 53 + " "));<a name="line.85"></a>
+<span class="sourceLineNo">083</span>     //@Examples.A.p((" "+("pattern.getClass()") +" = " + (pattern.getClass()))/*~*/+(" " + "Utilities.pj" + ":" + 51 + " "));<a name="line.83"></a>
+<span class="sourceLineNo">084</span>     //@Examples.A.p((" "+("pattern.getRegularExpression()") +" = " + (pattern.getRegularExpression()))/*~*/+(" " + "Utilities.pj" + ":" + 52 + " "));<a name="line.84"></a>
+<span class="sourceLineNo">085</span>     //@Examples.A.p((" "+("objects") +" = " + (objects))/*~*/+(" " + "Utilities.pj" + ":" + 53 + " "));<a name="line.85"></a>
 <span class="sourceLineNo">086</span>     Object first=null;<a name="line.86"></a>
 <span class="sourceLineNo">087</span>     List&lt;String&gt; hits=new java.util.ArrayList&lt;String&gt;();<a name="line.87"></a>
 <span class="sourceLineNo">088</span>     for(Object ob:objects)<a name="line.88"></a>
 <span class="sourceLineNo">089</span>     {<a name="line.89"></a>
 <span class="sourceLineNo">090</span>        String cur=ob.toString();<a name="line.90"></a>
-<span class="sourceLineNo">091</span>       //@ Norm.A.p(cur+(" " + "Utilities.pj" + ":" + 59 + " "));<a name="line.91"></a>
+<span class="sourceLineNo">091</span>       //@ Examples.A.p(cur+(" " + "Utilities.pj" + ":" + 59 + " "));<a name="line.91"></a>
 <span class="sourceLineNo">092</span>        if(!pattern.matches(cur))<a name="line.92"></a>
 <span class="sourceLineNo">093</span>           continue;<a name="line.93"></a>
-<span class="sourceLineNo">094</span>         //@Norm.A.p(cur+(" " + "Utilities.pj" + ":" + 62 + " "));<a name="line.94"></a>
+<span class="sourceLineNo">094</span>         //@Examples.A.p(cur+(" " + "Utilities.pj" + ":" + 62 + " "));<a name="line.94"></a>
 <span class="sourceLineNo">095</span>         if(firstOK)<a name="line.95"></a>
 <span class="sourceLineNo">096</span>           return ob;<a name="line.96"></a>
 <span class="sourceLineNo">097</span>         if(first == null)<a name="line.97"></a>
 <span class="sourceLineNo">098</span>           first=ob;<a name="line.98"></a>
 <span class="sourceLineNo">099</span>         hits.add(cur);<a name="line.99"></a>
-<span class="sourceLineNo">100</span>         //@Norm.A.p((" "+("cur") +" = " + (cur))/*~*/+(" "+("first") +" = " + (first))/*~*/+(" "+("hits") +" = " + (hits))/*~*/+(" " + "Utilities.pj" + ":" + 68 + " "));<a name="line.100"></a>
+<span class="sourceLineNo">100</span>         //@Examples.A.p((" "+("cur") +" = " + (cur))/*~*/+(" "+("first") +" = " + (first))/*~*/+(" "+("hits") +" = " + (hits))/*~*/+(" " + "Utilities.pj" + ":" + 68 + " "));<a name="line.100"></a>
 <span class="sourceLineNo">101</span><a name="line.101"></a>
 <span class="sourceLineNo">102</span>     }<a name="line.102"></a>
 <span class="sourceLineNo">103</span>     if(first ==null)<a name="line.103"></a>

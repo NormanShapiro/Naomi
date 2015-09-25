@@ -38,7 +38,7 @@
 <span class="sourceLineNo">030</span> * See the License for the specific language governing permissions and<a name="line.30"></a>
 <span class="sourceLineNo">031</span> * limitations under the License.<a name="line.31"></a>
 <span class="sourceLineNo">032</span> */<a name="line.32"></a>
-<span class="sourceLineNo">033</span>package Norm;<a name="line.33"></a>
+<span class="sourceLineNo">033</span>package Examples;<a name="line.33"></a>
 <span class="sourceLineNo">034</span><a name="line.34"></a>
 <span class="sourceLineNo">035</span>import org.naomi.regex.*;<a name="line.35"></a>
 <span class="sourceLineNo">036</span>import java.util.*;<a name="line.36"></a>
@@ -61,8 +61,8 @@
 <span class="sourceLineNo">053</span><a name="line.53"></a>
 <span class="sourceLineNo">054</span>  public DateTime(String[] args)<a name="line.54"></a>
 <span class="sourceLineNo">055</span>  {<a name="line.55"></a>
-<span class="sourceLineNo">056</span>     Pretty pretty=new Pretty();<a name="line.56"></a>
-<span class="sourceLineNo">057</span>     setPretty(pretty);<a name="line.57"></a>
+<span class="sourceLineNo">056</span>     //@Pretty pretty=new Pretty();<a name="line.56"></a>
+<span class="sourceLineNo">057</span>     //@setPretty(pretty);<a name="line.57"></a>
 <span class="sourceLineNo">058</span>     DayOfWeekPattern dayOfWeekPattern=new DayOfWeekPattern();<a name="line.58"></a>
 <span class="sourceLineNo">059</span>     DatePattern datePattern=new DatePattern();<a name="line.59"></a>
 <span class="sourceLineNo">060</span>     TimeOfDayPattern timeOfDayPattern=new TimeOfDayPattern();<a name="line.60"></a>
@@ -82,7 +82,7 @@
 <span class="sourceLineNo">074</span>        new WhitePattern(true)<a name="line.74"></a>
 <span class="sourceLineNo">075</span>     );<a name="line.75"></a>
 <span class="sourceLineNo">076</span><a name="line.76"></a>
-<span class="sourceLineNo">077</span>     A.p(getRegularExpression());<a name="line.77"></a>
+<span class="sourceLineNo">077</span>     //@A.p(getRegularExpression());<a name="line.77"></a>
 <span class="sourceLineNo">078</span>     for(String arg: args)<a name="line.78"></a>
 <span class="sourceLineNo">079</span>     {<a name="line.79"></a>
 <span class="sourceLineNo">080</span>        if(arg==null) continue;<a name="line.80"></a>

@@ -30,7 +30,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package Norm;
+package Examples;
 //@package org.naomi.regex;
 
 import java.util.*;
@@ -308,7 +308,7 @@ class Test
            public FilterCharClass copy()
            {throw new UnsupportedOperationException();}
         };
-        Norm.A.p((" "+("bits.getRegularExpression()") +" = " + (bits.getRegularExpression()))/*~*/);
+        Examples.A.p((" "+("bits.getRegularExpression()") +" = " + (bits.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
@@ -321,7 +321,7 @@ class Test
            public char getFirst() {return '\u1f00';}
            public boolean filter(char ch)
            {
-              //@Norm.A.p((" "+("ch") +" = " + (ch))/*~*/+(" " + "Test.pj" + ":" + 308 + " "));
+              //@Examples.A.p((" "+("ch") +" = " + (ch))/*~*/+(" " + "Test.pj" + ":" + 308 + " "));
               return Character.isTitleCase(ch);
            }
            public char getLast() {return '\u1ffd';}
@@ -330,7 +330,7 @@ class Test
            {throw new UnsupportedOperationException();}
 
         };
-        Norm.A.p((" "+("titleCase.getRegularExpression()") +" = " + (titleCase.getRegularExpression()))/*~*/);
+        Examples.A.p((" "+("titleCase.getRegularExpression()") +" = " + (titleCase.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
@@ -347,7 +347,7 @@ class Test
            new BoundaryPattern(Side.right,Boundary.word)
         );
 
-        Norm.A.p((" "+("word.getRegularExpression()") +" = " + (word.getRegularExpression()))/*~*/);
+        Examples.A.p((" "+("word.getRegularExpression()") +" = " + (word.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
@@ -360,7 +360,7 @@ class Test
            //@,
            //@new BuiltInCharClass(CoreBuiltIn.javaUpper)
         //@);
-        //@Norm.A.p((" "+("upperCaseGreekCharacter.getRegularExpression()") +" = " + (upperCaseGreekCharacter.getRegularExpression()))/*~*/);
+        //@Examples.A.p((" "+("upperCaseGreekCharacter.getRegularExpression()") +" = " + (upperCaseGreekCharacter.getRegularExpression()))/*~*/);
      //@}
      //@catch(Exception ex) {ex.printStackTrace();}
 

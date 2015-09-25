@@ -80,24 +80,24 @@ public class Utilities
      boolean nullOK,boolean firstOK
   )
   {
-     //@Norm.A.p((" "+("pattern.getClass()") +" = " + (pattern.getClass()))/*~*/+(" " + "Utilities.pj" + ":" + 51 + " "));
-     //@Norm.A.p((" "+("pattern.getRegularExpression()") +" = " + (pattern.getRegularExpression()))/*~*/+(" " + "Utilities.pj" + ":" + 52 + " "));
-     //@Norm.A.p((" "+("objects") +" = " + (objects))/*~*/+(" " + "Utilities.pj" + ":" + 53 + " "));
+     //@Examples.A.p((" "+("pattern.getClass()") +" = " + (pattern.getClass()))/*~*/+(" " + "Utilities.pj" + ":" + 51 + " "));
+     //@Examples.A.p((" "+("pattern.getRegularExpression()") +" = " + (pattern.getRegularExpression()))/*~*/+(" " + "Utilities.pj" + ":" + 52 + " "));
+     //@Examples.A.p((" "+("objects") +" = " + (objects))/*~*/+(" " + "Utilities.pj" + ":" + 53 + " "));
      Object first=null;
      List<String> hits=new java.util.ArrayList<String>();
      for(Object ob:objects)
      {
         String cur=ob.toString();
-       //@ Norm.A.p(cur+(" " + "Utilities.pj" + ":" + 59 + " "));
+       //@ Examples.A.p(cur+(" " + "Utilities.pj" + ":" + 59 + " "));
         if(!pattern.matches(cur))
            continue;
-         //@Norm.A.p(cur+(" " + "Utilities.pj" + ":" + 62 + " "));
+         //@Examples.A.p(cur+(" " + "Utilities.pj" + ":" + 62 + " "));
          if(firstOK)
            return ob;
          if(first == null)
            first=ob;
          hits.add(cur);
-         //@Norm.A.p((" "+("cur") +" = " + (cur))/*~*/+(" "+("first") +" = " + (first))/*~*/+(" "+("hits") +" = " + (hits))/*~*/+(" " + "Utilities.pj" + ":" + 68 + " "));
+         //@Examples.A.p((" "+("cur") +" = " + (cur))/*~*/+(" "+("first") +" = " + (first))/*~*/+(" "+("hits") +" = " + (hits))/*~*/+(" " + "Utilities.pj" + ":" + 68 + " "));
 
      }
      if(first ==null)
