@@ -30,7 +30,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package Examples;
+package examples;
 //@package org.naomi.regex;
 
 import java.util.*;
@@ -308,7 +308,7 @@ class Test
            public FilterCharClass copy()
            {throw new UnsupportedOperationException();}
         };
-        Examples.A.p((" "+("bits.getRegularExpression()") +" = " + (bits.getRegularExpression()))/*~*/);
+        examples.A.p((" "+("bits.getRegularExpression()") +" = " + (bits.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
@@ -330,7 +330,7 @@ class Test
            {throw new UnsupportedOperationException();}
 
         };
-        Examples.A.p((" "+("titleCase.getRegularExpression()") +" = " + (titleCase.getRegularExpression()))/*~*/);
+        examples.A.p((" "+("titleCase.getRegularExpression()") +" = " + (titleCase.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
@@ -347,7 +347,7 @@ class Test
            new BoundaryPattern(Side.right,Boundary.word)
         );
 
-        Examples.A.p((" "+("word.getRegularExpression()") +" = " + (word.getRegularExpression()))/*~*/);
+        examples.A.p((" "+("word.getRegularExpression()") +" = " + (word.getRegularExpression()))/*~*/);
      }
      catch(Exception ex) {ex.printStackTrace();}
 
