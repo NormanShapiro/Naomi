@@ -19,6 +19,7 @@ therefore to modify and maintain).
 
 To learn more about Naomi, start by reading, at
 http://normanshapiro.github.io/Naomi/, the documentation for Pattern and its
-subclases and for Matcher. See also src/SimpleExamples.java and
-src/DateTime.java.
+subclases and for Matcher. See also src/SimpleExamples.java (for an introduction
+to Naomi which does not show its power) and src/DateTime.java (to see the power
+of Naomi).
 
